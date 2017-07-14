@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu2_head1" android:title="头像1"/>
+    <item android:id="@+id/menu2_head2" android:title="头像2"/>
+    <item android:id="@+id/menu2_head3" android:title="头像3"/>
+    <item android:id="@+id/menu2_head4" android:title="头像4"/>
+    <item android:id="@+id/menu2_head5" android:title="头像5"/>
+    <item android:id="@+id/menu2_head6" android:title="头像6"/>
+     
+</menu>

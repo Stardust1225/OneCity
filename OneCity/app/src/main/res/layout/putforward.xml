@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/blue">
+            <ImageView
+                android:id="@+id/putforward_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/back"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/putputforward_imageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/userhead"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/putforward_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A Person's Name"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/k_letter"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:text="服务类型"
+                        android:textColor="@color/darkgray"
+                        android:gravity="center"
+                        android:textSize="17sp"/>
+
+                    <Spinner
+                        android:id="@+id/putforward_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp">
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/t_letter"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:text="服务主题"
+                        android:textColor="@color/darkgray"
+                        android:gravity="center"
+                        android:textSize="17sp"/>
+                    <EditText
+                        android:id="@+id/putforward_title"
+                        style="@android:style/Widget.EditText"
+                        android:background="@drawable/stroke"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp">
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/c_letter"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:text="具体内容"
+                        android:textColor="@color/darkgray"
+                        android:gravity="center"
+                        android:textSize="17sp"/>
+                    <EditText
+                        android:id="@+id/putforward_content"
+                        style="@android:style/Widget.EditText"
+                        android:background="@drawable/stroke"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp">
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/l_letter"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:text="位置"
+                        android:textColor="@color/darkgray"
+                        android:gravity="center"
+                        android:textSize="17sp"/>
+                    <EditText
+                        android:id="@+id/putforward_location"
+                        style="@android:style/Widget.EditText"
+                        android:background="@drawable/stroke"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp">
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/m_letter"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:text="报酬"
+                        android:textColor="@color/darkgray"
+                        android:gravity="center"
+                        android:textSize="17sp"/>
+                    <EditText
+                        android:id="@+id/putforward_money"
+                        style="@android:style/Widget.EditText"
+                        android:background="@drawable/stroke"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp">
+                    <Button
+                        android:id="@+id/putforward_putforward"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/buttonstroke"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="提交"
+                        android:textColor="@color/orange"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
